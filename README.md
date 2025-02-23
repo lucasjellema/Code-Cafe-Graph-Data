@@ -20,10 +20,10 @@ Materials for the February 2025 Conclusion Code Café on Graph Data &amp; Graph 
   - [Hands on with Neo4j](#hands-on-with-neo4j)
     - [Your first Cypher queries against Neo4j](#your-first-cypher-queries-against-neo4j)
     - [Film-liefhebbers en Tips](#film-liefhebbers-en-tips)
-  - [Familiegeschiedenis](#familiegeschiedenis)
-  - [Vriendinnen en Stedentrips](#vriendinnen-en-stedentrips)
-  - [Reisplanner](#reisplanner)
-  - [Bonus: Paardensprong](#bonus-paardensprong)
+    - [Familiegeschiedenis](#familiegeschiedenis)
+    - [Vriendinnen en Stedentrips](#vriendinnen-en-stedentrips)
+    - [Reisplanner](#reisplanner)
+    - [Bonus: Paardensprong](#bonus-paardensprong)
 
 Check out the Web Memo project with resources for this Code Café on Graph Data: [Web Memo project](https://lucasjellema.github.io/web-memo/?remoteURL=https://raw.githubusercontent.com/lucasjellema/Code-Cafe-Graph-Data/refs/heads/main/web-memo-project-Graph%20Data%20Code%20Caf%C3%A9-20250218.json)
 ![](./images/2025-02-23-09-26-55.png)
@@ -568,7 +568,7 @@ WHERE NOT EXISTS {
 RETURN m AS UnlovedMovie;
 ```
 
-## Familiegeschiedenis
+### Familiegeschiedenis
 We hebben het eerder over de stamboom gehad met daarin personen met hun ouders. En we zochten in de grafische weergave van de data naar de oma van Giri. In een kleine dataset kan je dat nog doen in een visuele weergave. Voor grotere data sets of voor automatische verwerking van dat soort data is een Graph Database erg geschikt. Laten we het eens proberen met Neo4j.
 
 Gebruik de statements in de file [files/family-tree.cypher](files/family-tree.cypher) om de database te resetten en dezelfde personen en *kind van* verbindingen aan te maken als we eerder hebben gezien.
@@ -602,7 +602,7 @@ RETURN achterkleinkind, overgrootouder;
 ```
 
 
-## Vriendinnen en Stedentrips
+### Vriendinnen en Stedentrips
 
 Gebruik de inhoud van file [vriendinnen-stadsbezoeken.cypher](files/vriendinnen-stadsbezoeken.cypher) om in de Neo4j browser de nodes aan te maken voor de vriendinnen en de steden die ze hebben bezocht. De edges worden toegevoegd voor de stedentrips - met de data (vanaf en tot).
 
@@ -667,7 +667,7 @@ De query-toelichting:
 Sorteert het resultaat op stad en de beginperiode van de eerste vriendin. 
 
 
-## Reisplanner
+### Reisplanner
 
 We zagen eerder al deze matrix met reistijden tussen stations:
 
@@ -768,7 +768,7 @@ Zo ziet het resultaat van deze query er uit:
 
 
 
-## Bonus: Paardensprong
+### Bonus: Paardensprong
 
 Met de data in de file [files/paardensprong.cypher](files/paardensprong.cypher) kan je een nieuwe graaf aanmaken die een paardensprongpuzzel beschrijft:
 ```
