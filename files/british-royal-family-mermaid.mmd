@@ -1,0 +1,44 @@
+graph TD;
+  %% Queen Elizabeth II's Family Tree
+  Queen_Elizabeth_II("👑 Queen Elizabeth II") -->|married| Prince_Phillip("Prince Philip")
+  Queen_Elizabeth_II --> Charles_III("👑 King Charles III")
+  Queen_Elizabeth_II --> Anne("Princess Anne")
+  Queen_Elizabeth_II --> Andrew("Prince Andrew")
+  Queen_Elizabeth_II --> Edward("Prince Edward")
+  
+  %% King Charles III's Family
+  Charles_III -->|married| Diana("Princess Diana")
+  Charles_III --> William("Prince William")
+  Charles_III --> Harry("Prince Harry")
+  William -->|married| Catherine("Princess Catherine")
+  William --> George("Prince George")
+  William --> Charlotte("Princess Charlotte")
+  William --> Louis("Prince Louis")
+  Harry -->|married| Meghan("Meghan Markle")
+  Harry --> Archie("Archie Mountbatten-Windsor")
+  Harry --> Lilibet("Lilibet Mountbatten-Windsor")
+  
+  %% Princess Anne's Family
+  Anne --> Peter("Peter Phillips")
+  Anne --> Zara("Zara Tindall")
+  Peter --> Savannah("Savannah Phillips")
+  Peter --> Isla("Isla Phillips")
+  Zara --> Mia("Mia Tindall")
+  Zara --> Lena("Lena Tindall")
+  Zara --> Lucas("Lucas Tindall")
+  
+  %% Prince Andrew's Family
+  Andrew -->|married| Sarah("Sarah Ferguson")
+  Andrew --> Beatrice("Princess Beatrice")
+  Andrew --> Eugenie("Princess Eugenie")
+  Beatrice --> Sienna("Sienna Mapelli Mozzi")
+  Eugenie --> August("August Brooksbank")
+  
+  %% Prince Edward's Family
+  Edward -->|married| Sophie("Sophie, Duchess of Edinburgh")
+  Edward --> Louise("Lady Louise Windsor")
+  Edward --> James("James, Earl of Wessex")
+  
+  %% Styling
+  classDef royal fill:#f7e1b5,stroke:#d4a017,stroke-width:2px;
+  class Queen_Elizabeth_II,Charles_III,William,Harry,Anne,Andrew,Edward royal;
