@@ -371,13 +371,14 @@ Note: [this website](https://songhaifan.github.io/learning_cytospace/#/README) w
 
 Here is a [simple demo](https://raw.githack.com/SonghaiFan/learning_cytospace/main/cytoscape_learning_code/2-basic-node-and-edge-operations/index.html) of a web application that allows adding, removing and updating nodes and edges. The code required for this behavior can be seen on [this page - with clarification](https://songhaifan.github.io/learning_cytospace/#/chapters/2/).
 
+[This demo](https://raw.githack.com/SonghaiFan/learning_cytospace/main/cytoscape_learning_code/6-graph-algorithms-and-analysis/index.html) shows how CytoscapeJS provides support for a number of valuable graph algorithms. The code for this demo can be inspected on [this page](https://songhaifan.github.io/learning_cytospace/#/chapters/6/).
 
 
 ## Demo Graphs
 
 Some graph demonstrations to check out:
 
-* [Conclusion ecosysteem](https://lucasjellema.github.io/network-navigator/?remoteURL=https://raw.githubusercontent.com/lucasjellema/network-navigator/refs/heads/main/demo-graphs/network-navigator-conclusion-ecosystem.json) - created with Network Navigator based on CytoscapeJS (also available as Chrome Extension - see [GitHub Repo](https://github.com/lucasjellema/network-navigator)) (created using Cytoscape)
+* [Conclusion ecosysteem](https://lucasjellema.github.io/network-navigator/?remoteURL=https://raw.githubusercontent.com/lucasjellema/network-navigator/refs/heads/main/demo-graphs/network-navigator-conclusion-ecosystem.json) - Double click on the nodes to open the company page in LinkedIn. This graph is created with Network Navigator based on CytoscapeJS (also available as Chrome Extension - see [GitHub Repo](https://github.com/lucasjellema/network-navigator)) (created using Cytoscape)
 * [Characters of Les Misérables](https://lesmiserables.mla.hcommons.org/) - open website, navigate to *Characters of Les Misérables*, click on *Characters Graphs*
 * [A cartography of Wikipedia pages around data visualization](https://www.sigmajs.org/demo/index.html) - created using SigmaJS
 
